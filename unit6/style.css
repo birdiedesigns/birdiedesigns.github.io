@@ -1,0 +1,71 @@
+body {
+	font-family: 'Alegreya', serif;
+}
+div {
+	padding: 30px;
+}
+nav {
+	font-size: 18px;
+	float: right;
+}
+nav a {
+	text-decoration: none;
+	margin: 30px;
+	display: inline-block;
+}
+section {
+	color: black;
+	overflow: auto;
+}
+h3 {
+	font-weight: 400;
+	text-transform: lowercase;
+	display: inline-block;
+	font-size: 20px;
+	padding: 13px 0;
+	color: #60b8c8;
+}
+footer {
+	text-align: center;
+	border-top: 2px solid black;
+	padding: 18px 0;
+	margin-top: 40px;
+	clear: both;
+}
+img {
+	display: block;
+	margin: 0 auto;
+	clear: both;
+	width: 480px;
+}
+#logo {
+	float: left;
+	width: 80px;
+}
+#jars {
+	background: white;
+}
+#about {
+	font-size: 20px;
+	width: 40%;
+	display: inline-block;
+	float: left;
+}
+#brainfood {
+	font-size: 20px;
+	width: 40%;
+	display: inline-block;
+	float: left;
+}
+#funstyle {
+	font-size: 20px;
+	width: 40%;
+	display: inline-block;
+	float: left;
+}
+#recipes {
+	font-size: 20px;
+	width: 40%;
+	display: inline-block;
+	float: left;
+}
