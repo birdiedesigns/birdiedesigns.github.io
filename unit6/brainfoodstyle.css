@@ -1,0 +1,24 @@
+body {
+	font-family: 'Alegreya', serif;
+}
+div {
+	padding: 30px;
+	min-width: 0;
+}
+nav {
+	font-size: 18px;
+	float: right;
+}
+nav a {
+	text-decoration: none;
+	color: #f37e8c;
+	margin: 20px;
+	margin-top: 50px;
+	display: inline-block;
+}
+footer {
+	text-align: center;
+	padding: 18px 0;
+	margin-top: 40px;
+	clear: both;
+}
