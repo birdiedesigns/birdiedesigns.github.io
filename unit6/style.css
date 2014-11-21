@@ -51,10 +51,10 @@ img {
 }
 #logo {
 	float: left;
-	width: 10%;
+	width: 100%;
 }
 #jars {
-	width: 60%;
+	width: 100%;
 	display: block;
 	margin: 0 auto;
 }
@@ -80,7 +80,7 @@ img {
 }
 @media (max-width: 800px) {
 	nav {
-		width: 40%;
+		width: 100%;
 		font-size: 1em;
 	}
 	section {
@@ -89,7 +89,7 @@ img {
 }
 @media (max-width: 500px) {
 	nav {
-		width: 40%;
+		width: 100%;
 		font-size: 1em;
 	}
 }
@@ -97,9 +97,5 @@ img {
 	nav {
 		width: 40%;
 		font-size: 1em;
-	}
-	#logo {
-		float: center;
-		width: 5px;
 	}
 }
