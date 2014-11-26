@@ -1,0 +1,95 @@
+body {
+	font-family: 'Alegreya', serif;
+	max-width: 70em;
+}
+div {
+	padding: 1em;
+	min-width: 0;
+}
+nav {
+	font-size: 18px;
+	float: right;
+}
+nav a {
+	text-decoration: none;
+	color: #f37e8c;
+	margin: 1em;
+	margin-top: 1em;
+	display: inline-block;
+}
+h3 {
+	font-weight: 800;
+	text-transform: lowercase;
+	font-size: 24px;
+	color: #60b8c8;
+	padding: 0em 0;
+	text-align: left;
+	display: inline-block;
+	margin-left: -4.8em;
+	margin-top: 6em;
+}
+h4 {
+	font-weight: 400;
+	font-style: italic;
+	text-transform: lowercase;
+	font-size: 22px;
+	padding: 0;
+	color: #f37e8c;
+	text-align: left;
+	margin-top: 1em;
+}
+img {
+	display: block;
+	margin: 0 auto;
+	clear: both;
+}
+section {
+	overflow: auto;
+	margin-left: 5em;
+	margin-top: 2em;
+	padding: 0em 0;
+	display: inline-block;
+}
+h5 {
+	font-weight: 800;
+	font-style: italic;
+	text-transform: lowercase;
+	font-size: 18px;
+	color: #494444;
+	display: inline-block;
+}
+footer {
+	text-align: center;
+	padding: 18px 0;
+	margin-top: 40px;
+	clear: both;
+}
+a {
+	text-decoration: none;
+	color: #f37e8c;
+}
+#recipes {
+	float: left;
+	margin-top: 10em;
+	margin-left: 4em;
+	display: block;
+}
+#logo {
+	float: left;
+	width: 10px;
+}
+#fudgebars{
+	font-size: 18px;
+	display: inline-block;
+	text-align: center;
+}
+#choccake {
+	font-size: 18px;
+	display: inline-block;
+	text-align: center;
+}
+#healthyeating {
+	font-size: 18px;
+	display: inline-block;
+	text-align: center;
+}

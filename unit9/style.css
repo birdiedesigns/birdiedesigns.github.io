@@ -1,0 +1,243 @@
+* {
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body {
+	font-family: 'Alegreya', serif;
+	max-width: 70em;
+}
+div {
+	padding: 1em;
+	min-width: 0;
+}
+nav {
+	font-size: 1em;
+	float: right;
+	width: 60%;
+}
+nav a {
+	text-decoration: none;
+	color: #f37e8c;
+	padding: 1em;
+	display: inline-block;
+	float: right;
+	margin-right: 1em;
+}
+label {
+	cursor: pointer;
+}
+section {
+	overflow: auto;
+	min-width: 0;
+	margin: 20%;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0em;
+}
+h3 {
+	font-weight: 400;
+	text-transform: lowercase;
+	display: inline-block;
+	font-size: 1em;
+	padding: 0em 0;
+	color: #60b8c8;
+}
+footer {
+	text-align: center;
+	padding: 1em 0;
+	margin-top: 1em;
+	clear: both;
+}
+a {
+	text-decoration: none;
+	color: #f37e8c;
+	margin-bottom: 10px;
+}
+img {
+	display: block;
+	margin: 0 auto;
+	clear: both;
+}
+#logo {
+	float: left;
+	width: 14%;
+}
+#logo img {
+	width: 100%
+}
+#jars {
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+}
+#jars img {
+	width: 100%;
+}
+#about {
+	font-size: 18px;
+	display: inline-block;
+	text-align: center;
+	width: 24%;
+	padding: .5em;
+}
+#about img {
+	width: 100%;
+}
+#brainfood {
+	font-size: 18px;
+	display: inline-block;
+	text-align: center;
+	width: 24%;
+	padding: .5em;
+}
+#brainfood img {
+	width: 100%;
+}
+#funstyle {
+	font-size: 18px;
+	display: inline-block;
+	text-align: center;
+	width: 24%;
+	padding: .5em;
+}
+#funstyle img {
+	width: 100%;
+}
+#recipes {
+	font-size: 18px;
+	display: inline-block;
+	text-align: center;
+	width: 24%;
+	padding: .5em;
+}
+#recipes img {
+	width: 100%;
+}
+
+/* ------------------- large nav -------------------- */
+
+.nav_lg ul{
+	list-style: none;
+}
+.nav_lg li{
+	display:inline;
+}
+.nav_lg li a{
+	text-decoration: none;
+	color:#f37e8c;
+}
+
+/* ------------------- small nav -------------------- */
+.nav_sm{
+	display:none;
+}
+.nav_sm ul {
+  	list-style: none;
+}
+.nav_sm li{
+	padding:1em;
+}
+.nav_sm li:hover{
+	background:white;
+}
+.nav_sm li a{
+	text-decoration: none;
+	color:#f37e8c;
+}
+.nav_sm label img{
+	margin-right: 3em;
+}
+.nav_sm li a:hover{
+	text-decoration: none;
+/*	color:#f37e8c; */
+}
+
+/* ------------------- toggle menu -------------------- */
+
+#menu-toggle {
+  display: none; /* hide the checkbox */
+}
+
+#menu {
+  display: none; /* hide the menu items */
+}
+
+/* when toggle is checked, display the menu */
+#menu-toggle:checked + #menu {
+  display: inline-block;
+}
+@media screen and (max-width: 800px) {
+	nav {
+		width: 50%;
+		float: right;
+		font-size: .8em;
+	}
+	#logo {
+		width: 14%;
+		margin-left: 1.2em;
+	}
+	#jars {
+		width: 80%;
+	}
+	section {
+		overflow: auto;
+		margin: 10%;
+	}
+	#about img {
+		width: 80%;
+	}
+	#brainfood img {
+		width: 80%;
+	}
+	#funstyle img {
+		width: 80%;
+	}
+	#recipes img {
+		width: 80%;
+	}
+	h3 {
+		font-size: 1em;
+	}
+	.nav_lg {
+		display: block;
+		overflow: none;
+	}
+	.nav_sm {
+		display: none;
+	}
+	footer {
+		font-size: 1em;
+		padding-top: 0em;
+	}
+
+@media screen and (max-width: 600px) {
+	nav {
+		width: 50%;
+		float: right;
+		font-size: .6em;
+	}
+	#logo {
+		width: 22%;
+		margin-left: 1.2em;
+	}
+	#jars {
+		width: 90%;
+	}
+	section {
+		overflow: auto;
+		margin: 10%;
+	}
+	h3 {
+		font-size: .6em;
+	}
+	.nav_lg {
+		display: none;
+	}
+	.nav_sm {
+		display: block;
+	}
+	footer {
+		font-size: .6em;
+	}
+}
